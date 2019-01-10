@@ -1,8 +1,16 @@
 <li>
-	{{burger_name}}
-{{#unless devoured}}
-	<button class="change-devoured" data-id="{{id}}" data-isDevoured="{{devoured}}">
-		Eat this burger!
+	<div class="burger-holder">
+	{{#unless devoured}}
+	<button class="change-devoured btn btn-primary mb-2" data-id="{{id}}" data-isDevoured="{{devoured}}">
+			{{burger_name}}
 	</button>
 	{{/unless}}
+	{{#if devoured}}
+	{{burger_name}}
+	{{/if}}
+	
+</div>
 </li>
+
+
+
