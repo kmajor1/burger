@@ -1,13 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny|Yanone+Kaffeesatz');
+
+html {
+  font-size: 20px; 
+}
 body {
-  margin: 20px; 
-  font-size: 12pt; 
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #ffc300;
+  color: #dd1021; 
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 24px; 
+}
+
+h1, h2, h3 {
+  font-family: 'Coiny', cursive;
+  
+  
+}
+
+.btn {
+  font-size: 24px; 
+}
+
+.spacer {
+  height: 50px; 
+}
+
+
+
+
+ul {
+  text-align: left;
 }
 
 ul.devoured {
   list-style: none;
-  
-  
+}
+
+
+
+.vl {
+  border-left: 6px solid green;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
 }
 
 

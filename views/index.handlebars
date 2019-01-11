@@ -1,14 +1,17 @@
-<div class="container">
+<div class="container mt-4">
   <div class="row">
-    <div class="col">
-      <h1>Burgers</h1>
+    <div class="col text-center">
+      <h1>Burgers!</h1>
+      <img class="w-25" src="./assets/images/george_burger.gif">
+      <hr>
+
 
     </div>
   </div>
   <div class="row">
-    <div class="col">
+    <div class="col text-center">
 
-      <h2 class="mb-5">These burgers are waiting to be eaten!</h2>
+      <h2 class="mb-5">Devour these burgers!</h2>
 
 
       <ul class="devoured">
@@ -19,11 +22,11 @@
         {{/each}}
       </ul>
     </div>
+   
+    <div class="col text-center">
+      <h2 class="mb-5 text-center">Sorry, someone ate these!</h2>
 
-    <div class="col">
-      <h2 class="mb-5">Burgers that have been eaten!</h2>
-
-      <ul>
+      <ul class="red-text">
         {{#each burgers}}
         {{#if devoured}}
         {{> burgers/burger-block}}
@@ -31,7 +34,7 @@
         {{/each}}
       </ul>
 
-      
+
     </div>
 
 
@@ -49,9 +52,10 @@
 
 
 
-        <button class="btn btn-primary" type="submit">Add Burger</button>
+        <button class="btn btn-danger" type="submit">Add Burger</button>
       </form>
     </div>
   </div>
 
 </div>
+<div class="spacer"></div>
