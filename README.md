@@ -14,4 +14,7 @@ Users can provide a burger name, it will be written to a mySQL database indicati
  - Display which burgers have been eaten and not eaten (GET request)
  - Update the database when a user indicates they've eaten a burger, moving the burger name into the "eaten" column (PUT Request)
  - Add a record to the database when a user submits a new burger name (POST Request)
+ # Deployment 
+ The app is deployed to Heroku
+ Visit --> [Burgers!!](https://shielded-plateau-43960.herokuapp.com/)
  
